@@ -22,6 +22,6 @@ p2.b=20;
 p2.gp1.g_pct=100;
 
 $display("p1.a=%0d,p1.b=%0d,p2.a=%0d,p2.b=%0d",p1.a,p1.b,p2.a,p2.b);
-$display("gpct.p1=%0d,gpct.p2=%0d",)
+  $display("gpct.p1=%0d,gpct.p2=%0d",p1.gp1.g_pct,p2.g_pct);
 end
 endmodule
