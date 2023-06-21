@@ -2,7 +2,7 @@ class g_pkt;
   int g_pct;
   
   function g_pkt copy();
-    g_pkt copy = new();
+    copy = new();
     copy.g_pct = this.g_pct;
     return copy;
   endfunction
@@ -18,7 +18,7 @@ class packet;
   endfunction
   
   function packet copy();
-    packet copy = new();
+    copy = new();
     copy.a = this.a;
     copy.b = this.b;
     copy.gp1 = gp1.copy();
