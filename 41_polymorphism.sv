@@ -1,5 +1,5 @@
 class parent;
-function void display();
+virtual function void display();
 $display("In parent class");
 endfunction
 endclass
