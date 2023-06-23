@@ -3,7 +3,7 @@ rand bit[1:0] num;
 endclass
 
 class main;
-rand sample sm;
+rand sample sm; //rand is must to randomize num
 function new;
 sm=new;
 endfunction
