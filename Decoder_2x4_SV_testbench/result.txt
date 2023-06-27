@@ -1,0 +1,54 @@
+# a=1 and b=1
+# The output is d3
+# a=1 and b=0
+# The output is d2
+# a=0 and b=0
+# The output is d0
+# a=1 and b=1
+# The output is d3
+# a=0 and b=0
+# The output is d0
+# a=0 and b=0
+# The output is d0
+# a=1 and b=1
+# The output is d3
+# a=0 and b=1
+# The output is d1
+# a=0 and b=0
+# The output is d0
+# a=0 and b=0
+# The output is d0
+# a=0 and b=0
+# The output is d0
+# a=1 and b=0
+# The output is d2
+# a=0 and b=0
+# The output is d0
+# a=0 and b=0
+# The output is d0
+# a=0 and b=1
+# The output is d1
+# a=1 and b=0
+# The output is d2
+# a=1 and b=0
+# The output is d2
+# a=1 and b=1
+# The output is d3
+# a=1 and b=1
+# The output is d3
+# a=1 and b=1
+# The output is d3
+# a=0 and b=0
+# The output is d0
+# a=0 and b=1
+# The output is d1
+# a=1 and b=0
+# The output is d2
+# a=1 and b=0
+# The output is d2
+# a=1 and b=0
+# The output is d2
+# ** Note: implicit $finish from program
+#    Time: 50 ns  Iteration: 0  Instance: /top_test/t1
+# 1
+# Simulation stop requested.
