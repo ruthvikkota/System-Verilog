@@ -10,8 +10,10 @@ task run;
 repeat(5) begin
 trans=new();
 mon2scb.get(trans);
+
 if(trans.a==0 && trans.b==0)
 begin
+$display("a=0 and b=0");
 if(trans.d0==1)
 $display("The output is d0");
 else
@@ -20,6 +22,7 @@ end
 
 if(trans.a==0 && trans.b==1)
 begin
+$display("a=0 and b=1");
 if(trans.d1==1)
 $display("The output is d1");
 else
@@ -28,6 +31,7 @@ end
 
 if(trans.a==1 && trans.b==0)
 begin
+$display("a=1 and b=0");
 if(trans.d2==1)
 $display("The output is d2");
 else
@@ -36,6 +40,7 @@ end
 
 if(trans.a==1 && trans.b==1)
 begin
+$display("a=1 and b=1");
 if(trans.d3==1)
 $display("The output is d3");
 else
